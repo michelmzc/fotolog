@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#logo{
+    width: 300px;
+    height: 100px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;   
+}
+#navbar1{
+    flex: 1;
+}
+#navbar2{
+    flex:2;
+    text-align: center;
+}
+#navbar2 form{
+    width: 100%;    
+}
+#navbar2 form input[type="text"]{
+    width: 80%;
+}
+#navbar3{
+    flex:1;    
+}
+
+#perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#perfil #enlaces{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+#secciones-perfil{
+    display: flex;
+    flex-direction: row;
+}
+#columna-galeria{
+    display: flex;
+    flex-direction: column;
+}
+#columna-galeria .img-galeria{
+    width: 100px;
+}
+#columna-principal{
+
+}
+#columna-amigos{
+
+}
