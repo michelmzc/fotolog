@@ -5,23 +5,59 @@
     <body>
         <div class="container">
             <nav id="navbar">
-                <div id="navbar1">
+                <div id="navbar-left">
                     <img id="logo" src="logo.jpg" alt="Fotolog Logo">
                 </div>
-                <div id="navbar2">
+                <div id="navbar-center">
                     <form>
-                        <input type="text" placeholder="Buscar">
-                        <input type="submit" value="GO">
+                        <div id="form-left">
+                            <input id="search" type="text" placeholder="Buscar">
+                            <fieldset>                            
+                                <label>Web</label>                            
+                                <input type="radio" value="web" name="search-type"/>
+
+                                <label for="fotolog">Fotolog</label>                        
+                                <input type="radio" value="fotolog" name="search-type"/>
+                            </fieldset>                        
+                        </div>
+                        <div id="form-right">
+                            <input type="submit" value="GO">
+                        </div>
+                        
                     </form>
                 </div>
-                <div id="navbar3">
-                    <a href="#">Suscribirse a fotolog</a>
-                    |
+                <div id="navbar-right">
+                    <a href="#"><strong>Suscribirse a fotolog</strong></a>
+                    
                     <a href="#">Iniciar sesión</a> 
                     |
-                    <a href="#">Cerrar sesión</a> 
+                    <a href="#">Ayuda</a> 
                 </div>          
             </nav>
+            <hr>
+            <div id="ads">                
+                <div id="top">
+                    <div>
+                        <a href="#">Registro de datos listo</a>
+                        <p>Configuramos sistemas de pruebas rápidos con dispositivos U18 de N1.</p>
+                        <a href="#">www.dominio.com</a>
+                    </div>
+                    <div>
+                        <a href="#">Moving overseas</a>
+                        <p>We offer full destination services Custom.</p>
+                        <a href="#">www.dominio.com</a>
+                    </div>
+                    <div>
+                        <a href="#">Considereing a Unicycle?</a>
+                        <p>We offer full destination services Custom.</p>
+                        <a href="#">www.dominio.com</a>
+                    </div>
+                </div>
+                <div id="bottom">
+                    <a href="#">Anuncios de Doogle</a>
+                </div>    
+            </div>
+
             <div id="perfil">
                 <h1>...Luchiño el + cra del fut!....</h1>
                 <div id="enlaces">

@@ -13,21 +13,69 @@ body{
     align-items: center;
     flex-direction: row;   
 }
-#navbar1{
+#navbar-left{
     flex: 1;
 }
-#navbar2{
+#navbar-center{
     flex:2;
     text-align: center;
 }
-#navbar2 form{
+#navbar-center form{
     width: 100%;    
 }
-#navbar2 form input[type="text"]{
-    width: 80%;
+#navbar-center form fieldset{
+    display: flex;
+    justify-content: right;
+    width: auto;
 }
-#navbar3{
+fieldset{
+    border: black;
+}
+#navbar-center form {
+    display: flex;
+}
+#navbar-center form #form-left{
+    flex: 9; /* Ocupa el 90% del espacio */
+    max-width: 90%; /* Limita el ancho máximo al 90% */
+}
+#navbar-center form input[type="text"]{
+    width: 100%;
+}
+#navbar-center form #form-right{
+    flex: 1;
+    max-width: 10%;
+}
+#navbar-right{
     flex:1;    
+    
+}
+#navbar-right a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    border: 0;
+    height: 0.5px;
+    background-color: white;
+}
+#ads{
+    display: flex;    
+    flex-direction: column;
+}
+#ads div{
+    flex: 1;
+}
+#ads #top{
+    display: flex;
+}
+#ads #bottom{
+    display: flex;
+    justify-content: end;
+}
+#ads a, #ads p{
+    line-height: 1.2; /* Ajusta el interlineado, puedes cambiar el valor */
+    margin: 0; /* Elimina el margen vertical */
+    padding: 0; /* Elimina cualquier padding adicional */
 }
 
 #perfil{
